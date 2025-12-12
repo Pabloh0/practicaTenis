@@ -1,0 +1,38 @@
+{
+  "tenistas": [
+    {
+      "id": "1",
+      "nombre": "Rafa",
+      "apellido": "Nadal",
+      "imagen": "src/assets/images/nadal.png"
+    },
+    {
+      "id": "2",
+      "nombre": "Carlos",
+      "apellido": "Alcaraz",
+      "imagen": "src/assets/images/alcaraz.png"
+    }
+  ],
+  "partidos": [
+    {
+      "torneo": "Dios",
+      "ronda": "Dios",
+      "jugador1Id": 1,
+      "jugador2Id": 2,
+      "sets": [
+        {
+          "j1": 6,
+          "j2": 4
+        },
+        {
+          "j1": 6,
+          "j2": 3
+        }
+      ],
+      "ganadorId": 2,
+      "id": "d94b4a16-8c9b-4b62-b1fa-68f053587d53",
+      "createdAt": "12/12/2025, 7:54:38 AM",
+      "updatedAt": "12/12/2025, 7:54:38 AM"
+    }
+  ]
+}
