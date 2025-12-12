@@ -33,6 +33,26 @@
       "id": "d94b4a16-8c9b-4b62-b1fa-68f053587d53",
       "createdAt": "12/12/2025, 7:54:38 AM",
       "updatedAt": "12/12/2025, 7:54:38 AM"
+    },
+    {
+      "torneo": "Diowwdawdawddw",
+      "ronda": "Dios",
+      "jugador1Id": 1,
+      "jugador2Id": 2,
+      "sets": [
+        {
+          "j1": 6,
+          "j2": 4
+        },
+        {
+          "j1": 6,
+          "j2": 3
+        }
+      ],
+      "ganadorId": 2,
+      "id": "c934299f-49ba-4fd1-abd3-040b198b30b5",
+      "createdAt": "12/12/2025, 8:31:50 AM",
+      "updatedAt": "12/12/2025, 8:31:50 AM"
     }
   ]
 }

@@ -1,4 +1,4 @@
-const DB = require("./db.json");
+const DB = require("./DB.json")
 const fs = require("fs");
 const path = require("path");
 const { all } = require("../v1/routes/tenisRoutes");
