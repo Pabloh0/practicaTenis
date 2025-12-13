@@ -4,19 +4,44 @@
       "id": "1",
       "nombre": "Rafa",
       "apellido": "Nadal",
-      "imagen": "src/assets/images/nadal.png"
+      "imagen": "/assets/images/nadal.png"
     },
     {
       "id": "2",
       "nombre": "Carlos",
       "apellido": "Alcaraz",
-      "imagen": "src/assets/images/alcaraz.png"
+      "imagen": "/assets/images/alcaraz.png"
+    },
+    {
+      "id": "3",
+      "nombre" : "Novak",
+      "apellido" : "Djokovic",
+      "imagen" : "/assets/images/djokovic.png"
+    },
+    {
+      "id": "4",
+      "nombre" : "Alexander",
+      "apellido" : "Zverev",
+      "imagen" : "/assets/images/alexander.png"
+    },
+    {
+      "id": "5",
+      "nombre" : "Jannik",
+      "apellido" : "Sinner",
+      "imagen" : "/assets/images/sinner.png"
+    },
+    {
+      "id": "6",
+      "nombre" : "Roger",
+      "apellido" : "Federer",
+      "imagen" : "/assets/images/federer.png"
     }
+
   ],
   "partidos": [
     {
-      "torneo": "Dios",
-      "ronda": "Dios",
+      "torneo": "Champions",
+      "ronda": "Semifinales",
       "jugador1Id": 1,
       "jugador2Id": 2,
       "sets": [
@@ -33,26 +58,6 @@
       "id": "d94b4a16-8c9b-4b62-b1fa-68f053587d53",
       "createdAt": "12/12/2025, 7:54:38 AM",
       "updatedAt": "12/12/2025, 7:54:38 AM"
-    },
-    {
-      "torneo": "Diowwdawdawddw",
-      "ronda": "Dios",
-      "jugador1Id": 1,
-      "jugador2Id": 2,
-      "sets": [
-        {
-          "j1": 6,
-          "j2": 4
-        },
-        {
-          "j1": 6,
-          "j2": 3
-        }
-      ],
-      "ganadorId": 2,
-      "id": "c934299f-49ba-4fd1-abd3-040b198b30b5",
-      "createdAt": "12/12/2025, 8:31:50 AM",
-      "updatedAt": "12/12/2025, 8:31:50 AM"
     }
   ]
 }
