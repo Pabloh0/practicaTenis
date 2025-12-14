@@ -75,6 +75,52 @@ const createNewPartido = (req, res) => {
 };
 
 
+const updateOneTenista = (req, res) => {
+    const {
+        body,
+        params: { tenistaId },
+    } = req;
+    if(!tenistaId){
+        res
+        .status(400)
+        .send({
+            status: "FAILED",
+            data: { error: "Parameter ':tenistaId' can not be empty"},
+        });
+    }
+    try{
+        const updatedTenista = tenisService.updateOneTenista(tenistaId, body);
+        res.send({status : "OK", data: updatedTenista});        
+    }catch(error){
+        res
+        .status(error?.status || 500)
+        .send({ status: "FAILED", data: { error: error?.message || error}});
+    }
+};
+
+const updateOnePartido = (req, res) => {
+    const {
+        body,
+        params: { partidoId },
+    } = req;
+    if(!partidoId){
+        res
+        .status(400)
+        .send({
+            status: "FAILED",
+            data: { error: "Parameter ':partidoId' can not be empty"},
+        });
+    }
+    try{
+        const updatedPartido = tenisService.updateOnePartido(partidoId, body);
+        res.send({status : "OK", data: updatedPartido});        
+    }catch(error){
+        res
+        .status(error?.status || 500)
+        .send({ status: "FAILED", data: { error: error?.message || error}});
+    }
+};
+
 
 
 module.exports = {
@@ -82,4 +128,6 @@ module.exports = {
     getAllPartidos,
     getOneTenista,
     createNewPartido,
+    updateOneTenista,
+    updateOnePartido,
 };

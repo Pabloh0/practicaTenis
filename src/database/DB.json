@@ -4,7 +4,8 @@
       "id": "1",
       "nombre": "Rafa",
       "apellido": "Nadal",
-      "imagen": "/assets/images/nadal.png"
+      "imagen": "/assets/images/nadal.png",
+      "updatedAt": "12/14/2025, 3:47:15 PM"
     },
     {
       "id": "2",
@@ -14,50 +15,30 @@
     },
     {
       "id": "3",
-      "nombre" : "Novak",
-      "apellido" : "Djokovic",
-      "imagen" : "/assets/images/djokovic.png"
+      "nombre": "Novak",
+      "apellido": "Djokovic",
+      "imagen": "/assets/images/djokovic.png"
     },
     {
       "id": "4",
-      "nombre" : "Alexander",
-      "apellido" : "Zverev",
-      "imagen" : "/assets/images/alexander.png"
+      "nombre": "Alexander",
+      "apellido": "Zverev",
+      "imagen": "/assets/images/alexander.png"
     },
     {
       "id": "5",
-      "nombre" : "Jannik",
-      "apellido" : "Sinner",
-      "imagen" : "/assets/images/sinner.png"
+      "nombre": "Jannik",
+      "apellido": "Sinner",
+      "imagen": "/assets/images/sinner.png"
     },
     {
       "id": "6",
-      "nombre" : "Roger",
-      "apellido" : "Federer",
-      "imagen" : "/assets/images/federer.png"
+      "nombre": "Roger",
+      "apellido": "Federer",
+      "imagen": "/assets/images/federer.png"
     }
-
   ],
   "partidos": [
-    {
-      "torneo": "Champions",
-      "ronda": "Semifinales",
-      "jugador1Id": 1,
-      "jugador2Id": 2,
-      "sets": [
-        {
-          "j1": 6,
-          "j2": 4
-        },
-        {
-          "j1": 6,
-          "j2": 3
-        }
-      ],
-      "ganadorId": 2,
-      "id": "d94b4a16-8c9b-4b62-b1fa-68f053587d53",
-      "createdAt": "12/12/2025, 7:54:38 AM",
-      "updatedAt": "12/12/2025, 7:54:38 AM"
-    }
+    
   ]
 }

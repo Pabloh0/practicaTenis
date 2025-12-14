@@ -41,6 +41,24 @@ const createNewPartido = (newPartido) => {
     return createdPartido;
 };
 
+const updateOneTenista = (tenistaId, changes) => {
+    try{
+        const updatedTenista = Tenis.updateOneTenista(tenistaId, changes);
+        return updatedTenista;
+    }catch (error){
+        throw error;
+    }
+}
+
+const updateOnePartido = (partidoId, changes) => {
+    try{
+        const updatedPartido = Tenis.updateOnePartido(partidoId, changes);
+        return updatedPartido;
+    }catch (error){
+        throw error;
+    }
+}
+
 
 
 
@@ -49,4 +67,6 @@ module.exports = {
     getAllPartidos,
     getOneTenista,
     createNewPartido,
+    updateOneTenista,
+    updateOnePartido,
 };
